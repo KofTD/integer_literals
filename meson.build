@@ -17,5 +17,3 @@ integer_literals_dep = declare_dependency(
 )
 
 meson.override_dependency('integer_literals', integer_literals_dep)
-
-install_headers('integer_literals.hpp', subdir: 'integer_literals')
